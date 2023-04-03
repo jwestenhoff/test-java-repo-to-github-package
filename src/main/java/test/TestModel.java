@@ -9,5 +9,10 @@ public class TestModel {
 
     public void setText(String text) {
         this.text = text;
+        TestModel testModel = new TestModel();
+    }
+
+    public void printStuff() {
+        System.out.println("Stuff!!");
     }
 }
